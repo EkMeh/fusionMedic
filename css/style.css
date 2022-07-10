@@ -1,0 +1,815 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* topHeaderContent style starts  */
+
+.topHeaderContent
+{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+    background:#F2F3F4 ;
+    padding-top: .3rem; padding-bottom: .6rem;
+}
+.topHeaderContent .emailBox
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.topHeaderContent .emailBox ion-icon
+{
+    font-size: 1.7rem;
+    color: blue;
+}
+
+.topHeaderContent .emailBox p
+{
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, .5);
+    margin-left: 1rem;
+}
+
+.topHeaderContent .emailBox p:hover
+{
+    color: black;
+}
+
+.topHeaderContent .socialBox
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.topHeaderContent .socialBox ion-icon
+{
+    font-size: 1.7rem;
+    color: blue;
+    padding: .5rem;
+    background: white;
+    margin-left: .3rem;
+    cursor: pointer;
+}
+
+.topHeaderContent .socialBox ion-icon:hover
+{
+    background-color:blue;
+    color: white;
+    transform: rotateZ(-360deg);
+    transition: .2s;
+}
+
+.topHeaderContent button
+{
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    background: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: .5rem;
+}
+
+.topHeaderContent button:hover
+{
+    background: white;
+    color:blue ;
+}
+/* topHeaderContent style starts  */
+
+/* centerHeaderContent stayle starts  */
+.centerHeaderContent
+{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+    margin-top: 1rem;
+    /* background: green; */
+    transform: scale(.8);
+}
+
+.centerHeaderContent .logo
+{
+    display: flex;
+}
+
+.centerHeaderContent .logo p{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: .5rem;
+    color: rgba(0, 0, 255, 0.8);
+}
+
+.centerHeaderContent .logo p span
+{
+    font-size: 3.5rem;
+    color: blue;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 1rem;
+}
+
+.centerHeaderContent .callInfo
+{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.centerHeaderContent .callInfo ion-icon
+{
+    font-size: 1.7rem;
+    color: blue;
+}
+
+.centerHeaderContent .callInfo .phoneInfo
+{
+    display: grid;
+    margin-left: 1.5rem;
+}
+
+.centerHeaderContent .callInfo .phoneInfo p
+{
+    font-size: 1.5rem;
+    letter-spacing: .03rem;
+}
+
+.centerHeaderContent .callInfo .phoneInfo p span
+{
+    color: blue;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+
+.centerHeaderContent .callInfo .phoneInfo .p1
+{
+    color: rgba(0, 0, 0, .5);
+    text-transform: capitalize;
+}
+
+.centerHeaderContent .locationInfo
+{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.centerHeaderContent .locationInfo ion-icon
+{
+    font-size: 1.7rem;
+    color: blue;
+}
+
+.centerHeaderContent .locationInfo .navigateInfo
+{
+    display: grid;
+    margin-left: 1.5rem;
+}
+
+
+.centerHeaderContent .locationInfo .navigateInfo p
+{
+    font-size: 1.5rem;
+    letter-spacing: .03rem;
+}
+
+.centerHeaderContent .locationInfo .navigateInfo p span
+{
+    color: blue;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+
+.centerHeaderContent .locationInfo .navigateInfo .p1
+{
+    color: rgba(0, 0, 0, .5);
+    text-transform: capitalize;
+}
+/* centerHeaderContent stayle ends  */
+
+/* headerBottomContent stayle starts */
+.headerBottomContent
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.headerBottomContent .contentBlue
+{
+    background: blue;
+    padding-top: .8rem;padding-bottom: .8rem;
+    width: 100vh;
+}
+
+.headerBottomContent .contentBlue ul li
+{
+    list-style: none;
+    display: inline-block;
+}
+
+.headerBottomContent .contentBlue ul li:nth-child(1) a
+{
+    color: blue;
+    margin-left: 0;
+    padding: 1.5rem;
+}
+
+.headerBottomContent .contentBlue ul li:nth-child(1) a:hover
+{
+    color: green;
+    font-weight: 600;
+}
+
+.headerBottomContent .contentBlue ul li:nth-child(1):hover
+{
+    background: none;
+}
+
+.headerBottomContent .contentBlue ul li:nth-child(1)
+{
+    margin-left: 3rem;
+    background: white;
+}
+
+.headerBottomContent .contentBlue ul li a
+{
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 2rem;
+}
+
+.headerBottomContent .contentBlue ul li a:hover
+{
+    color: green;
+    font-weight: bolder;
+}
+
+.headerBottomContent .contentGreen
+{
+    background: green;
+    padding-top: .8rem;padding-bottom: .8rem;
+    width: 90vh; 
+}
+
+.headerBottomContent .contentGreen ul li:nth-child(1)
+{
+    margin-left: 1.8rem;
+}
+
+.headerBottomContent .contentGreen ul li
+{
+    list-style: none;
+    display: inline-block;
+}
+
+.headerBottomContent .contentGreen ul li a
+{
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 2rem;
+}
+
+.headerBottomContent .contentGreen ul li a:hover 
+{
+    color:blue;
+    font-weight: 600;
+}
+/* headerBottomContent stayle ends */
+
+/* firstContentBox style starts  */
+.firstContentBox 
+{
+    margin-top: 3rem;
+    position: relative;
+    background:#85C1E9;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.firstContentBox img
+{
+    margin-right: 8rem;
+    object-fit: cover;
+    border-radius: 1rem;
+    opacity: 0.8;
+}
+
+.firstContentBox img:hover
+{
+    transform: scale(1.2);
+}
+
+.firstContentBox .firstContentBoxInfo h2
+{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    letter-spacing: .1rem;
+    color: white;
+}
+
+.firstContentBox .firstContentBoxInfo p
+{
+    font-size: 1rem;
+    width: 20rem;
+    color: white;
+    letter-spacing: .1rem;
+    text-align: justify;
+    margin-top: 1rem;
+}
+
+.firstContentBox .firstContentBoxInfo .comboBoxContent
+{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-left: -14rem;
+    margin-top: 2rem;
+}
+
+.firstContentBox .firstContentBoxInfo .comboBoxContent .comboBox select
+{
+    width:auto;
+    height: 3rem;
+    font-size: 1.8rem;
+    padding-left: 2rem;padding-right: 3rem;
+    border-bottom-left-radius: 35rem;
+    border-top-left-radius: 35rem;
+    border-top-right-radius: 35rem;
+    border-bottom-right-radius: 35rem;
+    border:none;
+}
+
+.firstContentBox .firstContentBoxInfo .comboBoxContent .comboBoxButon
+{
+    position: absolute;
+    margin-left: 28rem;
+}
+
+.firstContentBox .firstContentBoxInfo .comboBoxContent .comboBoxButon button
+{
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    background: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+    padding-left: 2rem;padding-right: 2rem;
+    border-bottom-left-radius: 35rem;
+    border-top-left-radius: 35rem;
+    border-top-right-radius: 35rem;
+    border-bottom-right-radius: 35rem;
+
+}
+
+.firstContentBox .firstContentBoxInfo .comboBoxContent .comboBoxButon button:hover
+{
+    background: rgba(0, 255, 0, 0.8);
+}
+/* firstContentBox style ends  */
+
+/* secondContentBox style starts  */
+
+.secondContentBox
+{
+    position: relative;
+    background: #F2F3F4;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    padding-top: .5rem;padding-bottom: .5rem;
+}
+
+.secondContentBox .secondContentBoxInfo
+{
+    position: relative;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondContentBox .secondContentBoxInfo h2
+{
+    font-size: 3rem;
+    letter-spacing: .2rem;
+    text-transform: capitalize;
+    margin-left: 2rem;
+    font-weight: bolder;
+}
+
+.secondContentBox .secondContentBoxInfo h2 span
+{
+    color: blue;
+}
+
+.secondContentBox .secondContentBoxInfo .boxGrid
+{ 
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-left: 6rem;
+    margin-right: 12rem;
+}
+
+.secondContentBox .secondContentBoxInfo .boxGrid .boxFlex
+{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 2rem;
+}
+
+.secondContentBox .secondContentBoxInfo .boxGrid .boxFlex .icon
+{
+    margin-right: 2rem;
+}
+
+.secondContentBox .secondContentBoxInfo .boxGrid .boxFlex .information h3
+{
+    font-size: 1.7rem;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+}
+
+.secondContentBox .secondContentBoxForm
+{
+    display: grid;
+    background: white;
+    padding: 2rem;
+    margin-right:10rem;
+}
+
+.secondContentBox .secondContentBoxForm h2
+{
+    letter-spacing: .3rem;
+    font-size: 2rem;
+    color: blue;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.secondContentBox .secondContentBoxForm form
+{
+    display: grid;
+}
+
+
+.secondContentBox .secondContentBoxForm form input
+{
+    text-transform: capitalize;
+    font-size: 1.6rem;
+    width: 23rem;
+    margin-bottom: 1rem;
+}
+
+.secondContentBox .secondContentBoxForm form input::placeholder
+{
+    padding: .5rem;
+}
+
+
+.secondContentBox .secondContentBoxForm form select
+{
+    text-transform: capitalize;
+    font-size: 1.6rem;
+    width: 23rem;
+    margin-bottom: 1rem;
+}
+
+.secondContentBox .secondContentBoxForm form textarea
+{
+    text-transform: capitalize;
+    font-size: 1.6rem;
+    width: 23rem;
+    margin-bottom: 1rem;
+}
+
+
+.secondContentBox .secondContentBoxForm form textarea::placeholder
+{
+    padding: .5rem;
+}
+
+.secondContentBox .secondContentBoxForm form button
+{
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    background: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding-top: .2rem;
+    padding-bottom: .4rem;
+    padding-left: 2rem;padding-right: 2rem;
+    border-bottom-left-radius: 35rem;
+    border-top-left-radius: 35rem;
+    border-top-right-radius: 35rem;
+    border-bottom-right-radius: 35rem;
+
+}
+
+.secondContentBox .secondContentBoxForm form button:hover
+{
+    background: rgba(0, 255, 0, 0.8);
+}
+/* secondContentBox style ends  */
+
+/* thridContent style starts  */
+.thridContentBox
+{
+    position: relative;
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.thridContentBox img
+{
+    object-fit: cover;
+    border-radius: 1rem;
+    opacity: .8;
+}
+
+.thridContentBox img:hover
+{
+    transform: scale(1.2);
+}
+
+.thridContentBox .thridContentBoxInfo
+{
+    display: grid;
+    width: 50rem;
+}
+
+.thridContentBox .thridContentBoxInfo h2
+{
+    font-size: 3rem;
+    letter-spacing: .2rem;
+    text-transform: capitalize;
+    margin-left: 2rem;
+    font-weight: bolder;
+}
+
+.thridContentBox .thridContentBoxInfo h2 span
+{
+    color: blue;
+}
+
+.thridContentBox .thridContentBoxInfo
+{
+    font-size: 1.4rem;
+    margin-left: 8rem;
+    width: 50rem;
+}
+
+.thridContentBox .thridContentBoxInfo p
+{
+    margin-top: 1rem;
+}
+
+.thridContentBox .thridContentBoxInfo .btn1
+{
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    background: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding-top: .2rem;
+    padding-bottom: .4rem;
+    padding-left: 2rem;padding-right: 2rem;
+    margin-top: 1rem;
+}
+
+.thridContentBox .thridContentBoxInfo .btn2
+{
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    background: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding-top: .2rem;
+    padding-bottom: .4rem;
+    padding-left: 2rem;padding-right: 2rem;
+    margin-top: 1rem;
+}
+
+.thridContentBox .thridContentBoxInfo .btn1:hover
+{
+    background:blue;
+    transition: .5s;
+}
+
+.thridContentBox .thridContentBoxInfo .btn2:hover
+{
+    background: green;
+    transition: .5s;
+}
+/* thridContent style starts  */
+
+/* fifthContentBox style starts  */
+.fifthContentBox
+{
+    position: relative;
+    padding: 2rem;
+    background: #85C1E9;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.fifthContentBox img
+{
+    transform: scale(1.2);
+    opacity: .1; object-fit: cover;
+    margin-right: 15rem;
+}
+
+.fifthContentBox .fifthContentBoxInfo 
+{
+    line-height: 2;
+}
+
+.fifthContentBox .fifthContentBoxInfo h2
+{
+    font-size: 3rem;
+    color: white;
+    text-transform: capitalize;
+}
+
+.fifthContentBox .fifthContentBoxInfo p
+{
+    color: white;
+    font-size: 1.2rem;
+}
+
+.fifthContentBox .fifthContentBoxInfo button
+{
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    background: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding-top: .2rem;
+    padding-bottom: .4rem;
+    padding-left: 2rem;padding-right: 2rem;
+    margin-top: 1rem;
+}
+
+.fifthContentBox .fifthContentBoxInfo button:hover
+{
+    background: rgba(0, 255, 0, 0.8);
+}
+/* fifthContentBox style ends  */
+
+/* sixthContentBox style starts  */
+.sixthContentBox
+{
+    position: relative;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    padding: 5rem;
+}
+
+.sixthContentBox h2
+{
+    font-size: 3rem;
+    letter-spacing: .2rem;
+    text-transform: capitalize;
+    margin-left: 2rem;
+    font-weight: bolder;
+}
+.sixthContentBox h2 span
+{
+    color: blue;
+}
+
+.sixthContentBox .boxBoxbox
+{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.sixthContentBox .boxBoxbox .boxList 
+{
+    display: grid;
+    justify-content: center;
+    width: 50rem;
+    border: .1rem solid rgba(128, 128, 128, 0.205);
+    padding: 1.8rem;
+    margin-right: 2rem;
+}
+
+
+.sixthContentBox .boxBoxbox .boxList .boxListIcon
+{
+    display: flex;
+    align-items: center;
+    margin-top: .6rem;
+    border: .1rem solid rgba(128, 128, 128, 0.205);
+    padding: .5rem;
+    cursor: pointer;
+}
+
+.sixthContentBox .boxBoxbox .boxList .boxListIcon ion-icon
+{ 
+    color: blue;
+    font-size: 3rem;
+    font-weight: lighter;
+    background: rgba(128, 128, 128, 0.205);
+}
+
+.sixthContentBox .boxBoxbox .boxList .boxListIcon h2
+{
+    font-size: 2rem;
+}
+
+.sixthContentBox .boxBoxbox .neurology
+{
+    display: flex;
+
+}
+
+.sixthContentBox .boxBoxbox .neurologyInfo 
+{
+    margin-left: 2rem;
+}
+
+.sixthContentBox .boxBoxbox .neurologyInfo h2
+{
+    font-size: 2.5rem;
+}
+
+.sixthContentBox .boxBoxbox .neurologyInfo p
+{
+    font-size: 1.43rem;
+    margin-top: 1rem;
+}
+
+.sixthContentBox .boxBoxbox .neurologyInfo .neurologyInfoLine
+{
+    display: grid;
+    padding: .6rem;
+}
+
+.sixthContentBox .boxBoxbox .neurologyInfo .neurologyInfoLine p 
+{
+    border: .1rem solid rgba(128, 128, 128, 0.205);
+    padding: .2rem;
+}
+
+.sixthContentBox .boxBoxbox .neurologyInfo .neurologyInfoLine p ion-icon
+{
+    font-size: 1.7rem;
+    color: blue;
+    margin-right: 1rem;
+}
+/* sixthContentBox style starts  */
+
+/* https://preview.colorlib.com/#medex */

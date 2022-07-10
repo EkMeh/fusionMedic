@@ -1,0 +1,182 @@
+/* responsive starts  */
+@media only screen and (max-width:991px)
+{
+    body
+    {
+        background: orange;
+    }
+
+    .topHeaderContent
+    {
+        padding-top: .1; padding-bottom: .1;
+    }
+
+    .topHeaderContent .emailBox ion-icon
+    {
+        font-size: 1.3rem;
+        color: blue;
+    }
+
+    .topHeaderContent .emailBox p
+    {
+        font-size: 1rem;
+        color: rgba(0, 0, 0, .5);
+        margin-left: .6rem;
+    }
+
+    .topHeaderContent .socialBox ion-icon
+    {
+        font-size: 1.3rem;
+        padding: .2rem;
+        margin-left: .1rem;
+    }
+
+    .topHeaderContent button
+    {
+        font-size: 1rem;
+        padding: .2rem;
+    }
+
+    .centerHeaderContent .logo p
+    {
+        font-size: 1rem;
+        letter-spacing: .2rem;
+    }
+    
+    .centerHeaderContent .logo p span
+    {
+        font-size: 2.5rem;
+        letter-spacing: 1rem;
+    }
+
+    .centerHeaderContent .callInfo .phoneInfo
+    {
+        display: grid;
+        margin-left: 1.5rem;
+    }
+
+    .centerHeaderContent .callInfo
+    {
+        margin-left: 2rem;
+    }
+
+    .centerHeaderContent .callInfo ion-icon
+    {
+        font-size: 1.3rem;
+        color: blue;
+    }
+
+    .centerHeaderContent .callInfo .phoneInfo p
+    {
+        font-size: 1rem;
+        letter-spacing: .03rem;
+    }
+
+    .centerHeaderContent .callInfo .phoneInfo p span
+    {
+        color: blue;
+        text-transform: capitalize;
+        font-weight: bolder;
+    }
+
+    .centerHeaderContent .locationInfo
+    {
+        margin-left: 2rem;
+    }
+
+    .centerHeaderContent .locationInfo ion-icon
+    {
+        font-size: 1.3rem;
+        color: blue;
+    }
+    
+    .centerHeaderContent .locationInfo .navigateInfo
+    {
+        display: grid;
+        margin-left: 1.5rem;
+    }
+    
+    
+    .centerHeaderContent .locationInfo .navigateInfo p
+    {
+        font-size: 1rem;
+        letter-spacing: .03rem;
+    }
+
+    .headerBottomContent .contentBlue ul li a
+    {
+        font-size: .8rem;
+        margin-left: .7rem;
+    }
+
+    .headerBottomContent .contentGreen ul li a
+    {
+        font-size: .8rem;
+        margin-left: .7rem;
+    }
+
+    .firstContentBox
+    {
+        margin-top: 1.5rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;    
+    }
+
+    .firstContentBox img
+    {
+        margin-right: 0rem;
+        object-fit: cover;
+        border-radius: 1rem;
+        transform: scale(.75);
+        opacity: 0.8;
+    }
+
+    .firstContentBox img:hover
+    {
+        transform: scale(0.9);
+    }
+
+ 
+
+    .firstContentBox .firstContentBoxInfo h2
+    {
+        font-size: 1.4rem;
+        letter-spacing: .1rem;
+    }
+
+    .firstContentBox .firstContentBoxInfo p
+    {
+        font-size: .5rem;
+    }
+
+    .firstContentBox .firstContentBoxInfo .comboBoxContent
+    {
+        margin-left: -10rem;
+        margin-top: 1rem;
+    }
+
+    .firstContentBox .firstContentBoxInfo .comboBoxContent .comboBox select
+    {
+        width:auto;
+        height: 2rem;
+        font-size: 1.5rem;
+        border-bottom-left-radius: 35rem;
+        border-top-left-radius: 35rem;
+        border-top-right-radius: 35rem;
+        border-bottom-right-radius: 35rem;
+        border:none;
+    }
+
+    .firstContentBox .firstContentBoxInfo .comboBoxContent .comboBoxButon button
+    {
+        margin-left: -5rem;
+        font-size: 1.2rem;
+        width: 14rem;
+        border-bottom-left-radius: 35rem;
+        border-top-left-radius: 35rem;
+        border-top-right-radius: 35rem;
+        border-bottom-right-radius: 35rem;
+
+    }
+}
+/* responsive ends  */
